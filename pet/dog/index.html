@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+  <title>元气骑士-柴犬</title>
+  <link rel="stylesheet" href="../../common/layout.css">
+<style>
+#box {
+  width: 1em;
+  height: 1em;
+  margin-right: 20em;
+  margin-bottom: 20em;
+  box-shadow:
+    /* 脸部边框 */
+    6em 5em 0 0 #000,
+    6em 6em 0 0 #000,
+    6em 7em 0 0 #000,
+    6em 8em 0 0 #000,
+    6em 9em 0 0 #000,
+    6em 10em 0 0 #000,
+    6em 11em 0 0 #000,
+    6em 12em 0 0 #000,
+    7em 13em 0 0 #000,
+    7em 4em 0 0 #000,
+    7em 3em 0 0 #000,
+    8em 2em 0 0 #000,
+    9em 1em 0 0 #000,
+    10em 1em 0 0 #000,
+    10em 2em 0 0 #000,
+    10em 3em 0 0 #000,
+    11em 3em 0 0 #000,
+    12em 3em 0 0 #000,
+    13em 3em 0 0 #000,
+    14em 3em 0 0 #000,
+    15em 3em 0 0 #000,
+    15em 2em 0 0 #000,
+    15em 1em 0 0 #000,
+    16em 1em 0 0 #000,
+    17em 2em 0 0 #000,
+    18em 3em 0 0 #000,
+    18em 4em 0 0 #000,
+    19em 5em 0 0 #000,
+    19em 6em 0 0 #000,
+    19em 7em 0 0 #000,
+    19em 8em 0 0 #000,
+    19em 9em 0 0 #000,
+    19em 10em 0 0 #000,
+    19em 11em 0 0 #000,
+    19em 12em 0 0 #000,
+    19em 13em 0 0 #000,
+    18em 13em 0 0 #000,
+    18em 14em 0 0 #000,
+    17em 14em 0 0 #000,
+    /* 眉毛 */
+    10em 6em 0 0 #eee,
+    17em 6em 0 0 #eee,
+    /* 眼睛 */
+    10em 8em 0 0 #000,
+    10em 9em 0 0 #000,
+    17em 8em 0 0 #000,
+    17em 9em 0 0 #000,
+    /* 鼻子 */
+    13em 9em 0 0 #000,
+    14em 9em 0 0 #000,
+    15em 9em 0 0 #000,
+    /* 嘴巴 */
+    12em 11em 0 0 #770022,
+    13em 11em 0 0 #770022,
+    14em 11em 0 0 #770022,
+    12em 12em 0 0 #bb0044,
+    13em 12em 0 0 #bb0044,
+    14em 12em 0 0 #bb0044,
+    /* 脸部上色 */
+    9em 2em 0 0 #eecc77,
+    8em 3em 0 0 #eecc77,
+    16em 2em 0 0 #eecc77,
+    17em 3em 0 0 #eecc77,
+    18em 5em 0 0 #eecc77,
+    18em 6em 0 0 #eecc77,
+    7em 5em 0 0 #997744,
+    7em 6em 0 0 #997744,
+    7em 7em 0 0 #997744,
+    7em 8em 0 0 #997744,
+    7em 9em 0 0 #997744,
+    7em 10em 0 0 #997744,
+    8em 13em 0 0 #997744,
+    10em 6em 0 3em #ccaa55,
+    9em 9em 0 1em #ccaa55,
+    15em 6em 0 3em #ccaa55,
+    17em 10em 0 0 #ccaa55,
+    18em 10em 0 0 #ccaa55,
+    10em 11em 0 2em #eecc88,
+    16em 10em 0 3em #eecc88,
+    /* 围巾 */
+    6em 13em 0 0 #ff8811,
+    7em 14em 0 0 #ff8811,
+    8em 14em 0 0 #ff8811,
+    9em 14em 0 0 #ff8811,
+    10em 14em 0 0 #ff8811,
+    11em 14em 0 0 #ff8811,
+    12em 14em 0 0 #ff8811,
+    13em 14em 0 0 #ff8811,
+    14em 14em 0 0 #ff8811,
+    15em 14em 0 0 #ff8811,
+    16em 14em 0 0 #ff8811,
+    /* 四肢边框 */
+    19em 15em 0 0 #000,
+    19em 16em 0 0 #000,
+    18em 16em 0 0 #000,
+    17em 16em 0 0 #000,
+    16em 15em 0 0 #000,
+    15em 15em 0 0 #000,
+    14em 15em 0 0 #000,
+    14em 16em 0 0 #000,
+    13em 16em 0 0 #000,
+    12em 16em 0 0 #000,
+    11em 16em 0 0 #000,
+    10em 15em 0 0 #000,
+    9em 15em 0 0 #000,
+    8em 15em 0 0 #000,
+    7em 16em 0 0 #000,
+    6em 16em 0 0 #000,
+    5em 16em 0 0 #000,
+    4em 15em 0 0 #000,
+    4em 14em 0 0 #000,
+    3em 14em 0 0 #000,
+    3em 13em 0 0 #000,
+    3em 12em 0 0 #000,
+    3em 11em 0 0 #000,
+    3em 10em 0 0 #000,
+    4em 9em 0 0 #000,
+    5em 8em 0 0 #000,
+    /* 四肢上色 */
+    18em 15em 0 0 #997744,
+    17em 15em 0 0 #997744,
+    12em 14em 0 1em #997744,
+    6em 13em 0 2em #997744,
+    5em 9em 0 0 #997744,
+    5em 10em 0 0 #997744,
+    4em 10em 0 0 #997744,
+    /* 尾巴边框 */
+    4em 8em 0 0 #000,
+    4em 7em 0 0 #000,
+    4em 6em 0 0 #000,
+    5em 5em 0 0 #000,
+    5em 4em 0 0 #000,
+    4em 4em 0 0 #000,
+    3em 4em 0 0 #000,
+    2em 5em 0 0 #000,
+    1em 6em 0 0 #000,
+    1em 7em 0 0 #000,
+    1em 8em 0 0 #000,
+    1em 9em 0 0 #000,
+    1em 10em 0 0 #000,
+    2em 11em 0 0 #000,
+    /* 尾巴上色 */
+    2em 9em 0 1em #997744,
+    3em 6em 0 1em #997744
+  ;
+}
+</style>
+</head>
+<body>
+  <div id="box"></div>
+</body>
+</html>
