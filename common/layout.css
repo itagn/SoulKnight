@@ -8,16 +8,20 @@ body {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  font-size: 14px;
   background-color: #334455;
 }
+.box {
+  font-size: 14px;
+  width: 1em;
+  height: 1em;
+}
 @media screen and (min-width: 720px) and (max-width: 1000px) {
-  body {
+  .box {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 1000px) {
-  body {
+  .box {
     font-size: 30px;
   }
 }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+  <title>元气骑士-熊猫</title>
+  <link rel="stylesheet" href="../../common/layout.css">
+<style>
+.panda {
+  margin-right: 22em;
+  margin-bottom: 15em;
+  box-shadow:
+    /* 脸部边框 */
+    7em 3em 0 0 #000,
+    7em 2em 0 0 #000,
+    8em 1em 0 0 #000,
+    9em 1em 0 0 #000,
+    10em 1em 0 0 #000,
+    10em 2em 0 0 #000,
+    11em 2em 0 0 #000,
+    12em 2em 0 0 #000,
+    13em 2em 0 0 #000,
+    14em 2em 0 0 #000,
+    15em 2em 0 0 #000,
+    15em 1em 0 0 #000,
+    16em 1em 0 0 #000,
+    17em 1em 0 0 #000,
+    18em 2em 0 0 #000,
+    18em 3em 0 0 #000,
+    19em 4em 0 0 #000,
+    19em 5em 0 0 #000,
+    19em 6em 0 0 #000,
+    19em 7em 0 0 #000,
+    19em 8em 0 0 #000,
+    19em 9em 0 0 #000,
+    19em 10em 0 0 #000,
+    19em 11em 0 0 #000,
+    19em 12em 0 0 #000,
+    18em 12em 0 0 #000,
+    17em 13em 0 0 #000,
+    16em 13em 0 0 #000,
+    15em 13em 0 0 #000,
+    14em 13em 0 0 #000,
+    13em 13em 0 0 #000,
+    12em 13em 0 0 #000,
+    11em 13em 0 0 #000,
+    /* 耳朵 */
+    7em 4em 0 0 #222,
+    8em 2em 0 0 #222,
+    8em 3em 0 0 #222,
+    9em 2em 0 0 #353535,
+    9em 3em 0 0 #353535,
+    16em 2em 0 0 #222,
+    17em 2em 0 0 #353535,
+    17em 3em 0 0 #353535,
+    18em 4em 0 0 #353535,
+    /* 眼睛 */
+    10em 8em 0 0 #000,
+    10em 8em 0 1em #353535,
+    9em 8em 0 1em #353535,
+    9em 6em 0 0 #353535,
+    10em 6em 0 0 #353535,
+    9em 10em 0 0 #353535,
+    10em 10em 0 0 #353535,
+    17em 8em 0 0 #000,
+    17em 8em 0 1em #353535,
+    18em 7em 0 1em #353535,
+    18em 9em 0 1em #353535,
+    /* 鼻子 */
+    13em 8em 0 0 #000,
+    14em 8em 0 0 #000,
+    /* 嘴巴 */
+    13em 10em 0 0 #272727,
+    14em 10em 0 0 #272727,
+    13em 11em 0 0 #404040,
+    14em 11em 0 0 #404040,
+    /* 脸部上色 */
+    7.5em 11.5em 0 0.5em #353535,
+    7.5em 12.5em 0 0.5em #353535,
+    8.5em 12.5em 0 0.5em #353535,
+    10em 13em 0 0 #353535,
+    18em 11em 0 0 #a8a8a8,
+    10.5em 12.5em 0 0.5em #a8a8a8,
+    12.5em 12.5em 0 0.5em #a8a8a8,
+    14.5em 12.5em 0 0.5em #a8a8a8,
+    16.5em 12.5em 0 0.5em #a8a8a8,
+    12em 7em 0 5em #eee,
+    18em 5em 0 0 #eee,
+    /* 四肢边框 */
+    20em 12em 0 0 #000,
+    21em 13em 0 0 #000,
+    21em 14em 0 0 #000,
+    20em 14em 0 0 #000,
+    19em 14em 0 0 #000,
+    18em 14em 0 0 #000,
+    17em 14em 0 0 #000,
+    16em 14em 0 0 #000,
+    15em 14em 0 0 #000,
+    14em 14em 0 0 #000,
+    13em 14em 0 0 #000,
+    12em 14em 0 0 #000,
+    11em 14em 0 0 #000,
+    10em 14em 0 0 #000,
+    9em 14em 0 0 #000,
+    8em 14em 0 0 #000,
+    7em 14em 0 0 #000,
+    6em 14em 0 0 #000,
+    5em 14em 0 0 #000,
+    4em 14em 0 0 #000,
+    3em 14em 0 0 #000,
+    2em 14em 0 0 #000,
+    1em 14em 0 0 #000,
+    1em 13em 0 0 #000,
+    2em 12em 0 0 #000,
+    2em 11em 0 0 #000,
+    3em 10em 0 0 #000,
+    3em 9em 0 0 #000,
+    3em 8em 0 0 #000,
+    4em 7em 0 0 #000,
+    5em 6em 0 0 #000,
+    6em 5em 0 0 #000,
+    6em 11em 0 0 #000,
+    6em 12em 0 0 #000,
+    /* 四肢上色 */
+    8em 8em 0 2em #353535,
+    7em 8em 0 2em #eee,
+    5em 9em 0 1em #eee,
+    4em 11em 0 0 #a8a8a8,
+    5em 11em 0 0 #a8a8a8,
+    5em 12em 0 0 #a8a8a8,
+    5em 12em 0 2em #353535,
+    2em 13em 0 0 #353535,
+    19em 13em 0 1em #353535
+  ;
+}
+</style>
+</head>
+<body>
+  <div class="box panda"></div>
+</body>
+</html>
