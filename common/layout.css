@@ -9,6 +9,7 @@ body {
   align-items: center;
   overflow-x: hidden;
   font-size: 14px;
+  background-color: #334455;
 }
 @media screen and (min-width: 720px) and (max-width: 1000px) {
   body {
