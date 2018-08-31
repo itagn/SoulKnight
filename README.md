@@ -3,4 +3,4 @@
 
 ## 宠物
 
-黑猫 [【预览】](https://itagn.github.io/SoulKnight/pet/cat)
+宠物黑猫 [【像素预览】](https://itagn.github.io/SoulKnight/pet/cat)
