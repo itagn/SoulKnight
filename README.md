@@ -3,5 +3,6 @@
 
 ## 宠物
 
-宠物黑猫 [【像素预览】](https://itagn.github.io/SoulKnight/pet/cat/)    
-宠物柴犬 [【像素预览】](https://itagn.github.io/SoulKnight/pet/dog/)    
+黑猫 [【像素预览】](https://itagn.github.io/SoulKnight/pet/cat/)    
+柴犬 [【像素预览】](https://itagn.github.io/SoulKnight/pet/dog/)    
+小猪 [【像素预览】](https://itagn.github.io/SoulKnight/pet/pig/)    
