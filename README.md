@@ -10,3 +10,4 @@
 兔子 [【像素预览】](https://itagn.github.io/SoulKnight/pet/rabbit/)    
 熊猫 [【像素预览】](https://itagn.github.io/SoulKnight/pet/panda/)    
 小猪 [【像素预览】](https://itagn.github.io/SoulKnight/pet/pig/)    
+机器人 [【像素预览】](https://itagn.github.io/SoulKnight/pet/robot/)    
