@@ -13,3 +13,7 @@
 机器人 [【像素预览】](https://itagn.github.io/SoulKnight/pet/robot/)    
 史莱姆 [【像素预览】](https://itagn.github.io/SoulKnight/pet/slime/)    
 
+## 英雄
+
+游侠[【像素预览】](https://itagn.github.io/SoulKnight/hero/ranger)     
+
