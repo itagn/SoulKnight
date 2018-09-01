@@ -701,8 +701,8 @@
 
 /* 机器人 */
 .robot {
-  margin-right: 20em;
-  margin-bottom: 20m;
+  margin-right: 16em;
+  margin-bottom: 15em;
   box-shadow:
     /* 脸部边框 */
     4em 1em 0 0 #000,
@@ -823,5 +823,82 @@
     3em 12em 0 1em #557799,
     12em 10em 0 1em #99ccdd,
     12em 12em 0 1em #557799
+  ;
+}
+
+
+/* 史莱姆 */
+.slime {
+  margin-right: 17em;
+  margin-bottom: 13em;
+  box-shadow:
+    /* 脸部边框 */
+    2em 11em 0 0 #000,
+    3em 10em 0 0 #000,
+    4em 9em 0 0 #000,
+    4em 8em 0 0 #000,
+    4em 7em 0 0 #000,
+    4em 6em 0 0 #000,
+    4em 5em 0 0 #000,
+    4em 4em 0 0 #000,
+    5em 3em 0 0 #000,
+    6em 2em 0 0 #000,
+    7em 2em 0 0 #000,
+    8em 1em 0 0 #000,
+    9em 1em 0 0 #000,
+    10em 1em 0 0 #000,
+    11em 1em 0 0 #000,
+    12em 1em 0 0 #000,
+    13em 2em 0 0 #000,
+    14em 2em 0 0 #000,
+    15em 3em 0 0 #000,
+    16em 4em 0 0 #000,
+    16em 5em 0 0 #000,
+    16em 6em 0 0 #000,
+    16em 7em 0 0 #000,
+    16em 8em 0 0 #000,
+    16em 9em 0 0 #000,
+    16em 10em 0 0 #000,
+    16em 11em 0 0 #000,
+    16em 12em 0 0 #000,
+    15em 12em 0 0 #000,
+    14em 12em 0 0 #000,
+    13em 12em 0 0 #000,
+    12em 12em 0 0 #000,
+    11em 12em 0 0 #000,
+    10em 12em 0 0 #000,
+    9em 12em 0 0 #000,
+    8em 12em 0 0 #000,
+    7em 12em 0 0 #000,
+    6em 12em 0 0 #000,
+    5em 12em 0 0 #000,
+    4em 12em 0 0 #000,
+    3em 12em 0 0 #000,
+    2em 12em 0 0 #000,
+    1em 12em 0 0 #000,
+    /* 眼睛 */
+    9em 5em 0 0 #00ffff,
+    9em 6em 0 0 #00ffff,
+    14em 5em 0 0 #00ffff,
+    14em 6em 0 0 #00ffff,
+    /* 鼻子 */
+    12em 7em 0 0 #000,
+    /* 脸部上色 */
+    9.5em 1.5em 0 0.5em #44bbdd,
+    11.5em 1.5em 0 0.5em #44bbdd,
+    14em 3em 0 0 #44bbdd,
+    15.5em 4.5em 0 0.5em #44bbdd,
+    15.5em 6.5em 0 0.5em #44bbdd,
+    15.5em 8.5em 0 0.5em #44bbdd,
+    15.5em 10.5em 0 0.5em #226699,
+    6.5em 5.5em 0 0.5em #226699,
+    3.5em 10.5em 0 0.5em #226699,
+    5.5em 11.5em 0 0.5em #226699,
+    8.5em 9.5em 0 0.5em #226699,
+    10em 11em 0 1em #226699,
+    10em 9em 0 0 #226699,
+    12em 11em 0 0 #226699,
+    9.5em 7.5em 0 4.5em #3399bb,
+    8em 2em 0 0 #3399bb
   ;
 }
