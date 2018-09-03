@@ -26,7 +26,7 @@
 .robot {
   margin-right: 16em;
   margin-bottom: 15em;
-  box-shadow: var(--rabot);
+  box-shadow: var(--robot);
 }
 .slime {
   margin-right: 17em;
