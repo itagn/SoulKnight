@@ -1,10 +1,18 @@
-
-
 /* 游侠 */
 .ranger {
   margin-right: 24em;
   margin-bottom: 27em;
-  box-shadow:
+  box-shadow: var(--ranger);
+}
+/* 松鼠党 */
+.squirrel {
+  margin-right: 25em;
+  margin-bottom: 29em;
+  box-shadow: var(--squirrel);
+}
+
+:root {
+  --ranger:
     /* 脸部边框 */
     7em 13em 0 0 #000,
     7em 12em 0 0 #000,
@@ -237,14 +245,7 @@
     17.5em 25.5em 0 0.5em #000,
     19em 25em 0 0 #000
   ;
-}
-
-
-/* 松鼠党 */
-.squirrel {
-  margin-right: 25em;
-  margin-bottom: 29em;
-  box-shadow:
+  --squirrel:
     /* 脸部 */
     8em 15em 0 0 #000,
     8em 14em 0 0 #000,
@@ -527,4 +528,3 @@
     20em 27em 0 0 #000
   ;
 }
-
