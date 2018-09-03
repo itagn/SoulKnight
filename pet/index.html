@@ -5,703 +5,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-  <title>元气骑士-黑猫</title>
+  <title>元气骑士-宠物</title>
   <link rel="stylesheet" href="../common/layout.css">
+  <link rel="stylesheet" href="../common/pet.css">
 <style>
 .pet {
   animation: pet 10s infinite;
+  -webkit-animation: pet 10s infinite;
 }
-
 @keyframes pet {
   /* 黑猫 */
-  0%, 10%, 95%, 100% {
+  0%, 7.2%, 96.4%, 100% {
     margin-right: 20em;
     margin-bottom: 17em;
-    box-shadow:
-      /* 脸部边框 */
-      7em 1em 0 0 #000,
-      8em 1em 0 0 #000,
-      9em 2em 0 0 #000,
-      10em 3em 0 0 #000,
-      11em 3em 0 0 #000,
-      12em 3em 0 0 #000,
-      13em 3em 0 0 #000,
-      14em 3em 0 0 #000,
-      15em 3em 0 0 #000,
-      16em 3em 0 0 #000,
-      17em 2em 0 0 #000,
-      18em 1em 0 0 #000,
-      19em 1em 0 0 #000,
-      19em 2em 0 0 #000,
-      19em 3em 0 0 #000,
-      19em 4em 0 0 #000,
-      19em 5em 0 0 #000,
-      19em 6em 0 0 #000,
-      19em 7em 0 0 #000,
-      19em 8em 0 0 #000,
-      19em 9em 0 0 #000,
-      19em 10em 0 0 #000,
-      18em 10em 0 0 #000,
-      18em 11em 0 0 #000,
-      17em 11em 0 0 #000,
-      16em 11em 0 0 #000,
-      15em 11em 0 0 #000,
-      14em 11em 0 0 #000,
-      13em 11em 0 0 #000,
-      12em 11em 0 0 #000,
-      11em 11em 0 0 #000,
-      10em 11em 0 0 #000,
-      9em 11em 0 0 #000,
-      8em 11em 0 0 #000,
-      8em 10em 0 0 #000,
-      7em 10em 0 0 #000,
-      7em 9em 0 0 #000,
-      7em 8em 0 0 #000,
-      7em 7em 0 0 #000,
-      7em 6em 0 0 #000,
-      7em 5em 0 0 #000,
-      7em 4em 0 0 #000,
-      7em 3em 0 0 #000,
-      7em 2em 0 0 #000,
-      /* 眼睛 */
-      11em 6em 0 0 #11eeff,
-      11em 7em 0 0 #11eeff,
-      17em 6em 0 0 #11eeff,
-      17em 7em 0 0 #11eeff,
-      /* 脸部上色 */
-      8em 2em 0 0 #222,
-      8em 3em 0 0 #222,
-      8em 4em 0 0 #222,
-      8em 5em 0 0 #222,
-      8em 6em 0 0 #222,
-      8em 7em 0 0 #222,
-      8em 8em 0 0 #222,
-      8em 9em 0 0 #222,
-      9em 3em 0 0 #222,
-      9em 4em 0 0 #222,
-      9em 9em 0 0 #222,
-      9em 10em 0 0 #222,
-      10em 10em 0 0 #222,
-      11em 10em 0 0 #222,
-      12em 10em 0 0 #222,
-      13em 10em 0 0 #222,
-      14em 10em 0 0 #222,
-      15em 10em 0 0 #222,
-      16em 10em 0 0 #222,
-      17em 10em 0 0 #222,
-      18em 10em 0 0 #222,
-      18em 9em 0 0 #222,
-      14em 7em 0 4em #333344,
-      18em 2em 0 0 #333344,
-      9em 5em 0 0 #333344,
-      9em 7em 0 1em #333344,
-      /* 围巾 */
-      7em 11em 0 0 #008899,
-      12em 8em 0 4em #008899,
-      /* 四肢边框 */
-      7em 12em 0 0 #000,
-      7em 13em 0 0 #000,
-      7em 14em 0 0 #000,
-      7em 15em 0 0 #000,
-      7em 16em 0 0 #000,
-      8em 16em 0 0 #000,
-      9em 16em 0 0 #000,
-      10em 16em 0 0 #000,
-      11em 16em 0 0 #000,
-      13em 16em 0 0 #000,
-      14em 16em 0 0 #000,
-      15em 16em 0 0 #000,
-      16em 16em 0 0 #000,
-      17em 16em 0 0 #000,
-      18em 16em 0 0 #000,
-      18em 15em 0 0 #000,
-      17em 14em 0 0 #000,
-      17em 13em 0 0 #000,
-      17em 12em 0 0 #000,
-      17em 11em 0 0 #000,
-      8em 13em 0 0 #000,
-      9em 13em 0 0 #000,
-      10em 13em 0 0 #000,
-      11em 13em 0 0 #000,
-      12em 13em 0 0 #000,
-      13em 13em 0 0 #000,
-      14em 13em 0 0 #000,
-      15em 13em 0 0 #000,
-      15em 14em 0 0 #000,
-      16em 15em 0 0 #000,
-      11em 14em 0 0 #000,
-      12em 14em 0 0 #000,
-      12em 15em 0 0 #000,
-      /* 四肢上色 */
-      9em 14em 0 2em #222,
-      15em 14em 0 2em #222,
-      /* 尾巴边框 */
-      6em 11em 0 0 #000,
-      5em 10em 0 0 #000,
-      4em 9em 0 0 #000,
-      3em 9em 0 0 #000,
-      2em 10em 0 0 #000,
-      2em 11em 0 0 #000,
-      2em 12em 0 0 #000,
-      3em 12em 0 0 #000,
-      4em 11em 0 0 #000,
-      5em 12em 0 0 #000,
-      5em 13em 0 0 #000,
-      5em 14em 0 0 #000,
-      6em 15em 0 0 #000,
-      /* 尾巴上色 */
-      3em 10em 0 0 #222,
-      3em 11em 0 0 #222,
-      4em 10em 0 0 #222,
-      5em 11em 0 0 #222,
-      6em 12em 0 0 #222,
-      6em 13em 0 0 #222,
-      6em 14em 0 0 #222
-    ;
+    box-shadow: var(--cat);
   }
   /* 柴犬 */
-  15%, 30% {
+  10.8%, 21.6% {
     margin-right: 20em;
     margin-bottom: 17em;
-    box-shadow:
-      /* 脸部边框 */
-      6em 5em 0 0 #000,
-      6em 6em 0 0 #000,
-      6em 7em 0 0 #000,
-      6em 8em 0 0 #000,
-      6em 9em 0 0 #000,
-      6em 10em 0 0 #000,
-      6em 11em 0 0 #000,
-      6em 12em 0 0 #000,
-      7em 13em 0 0 #000,
-      7em 4em 0 0 #000,
-      7em 3em 0 0 #000,
-      8em 2em 0 0 #000,
-      9em 1em 0 0 #000,
-      10em 1em 0 0 #000,
-      10em 2em 0 0 #000,
-      10em 3em 0 0 #000,
-      11em 3em 0 0 #000,
-      12em 3em 0 0 #000,
-      13em 3em 0 0 #000,
-      14em 3em 0 0 #000,
-      15em 3em 0 0 #000,
-      15em 2em 0 0 #000,
-      15em 1em 0 0 #000,
-      16em 1em 0 0 #000,
-      17em 2em 0 0 #000,
-      18em 3em 0 0 #000,
-      18em 4em 0 0 #000,
-      19em 5em 0 0 #000,
-      19em 6em 0 0 #000,
-      19em 7em 0 0 #000,
-      19em 8em 0 0 #000,
-      19em 9em 0 0 #000,
-      19em 10em 0 0 #000,
-      19em 11em 0 0 #000,
-      19em 12em 0 0 #000,
-      19em 13em 0 0 #000,
-      18em 13em 0 0 #000,
-      18em 14em 0 0 #000,
-      17em 14em 0 0 #000,
-      /* 眉毛 */
-      10em 6em 0 0 #eee,
-      17em 6em 0 0 #eee,
-      /* 眼睛 */
-      10em 8em 0 0 #000,
-      10em 9em 0 0 #000,
-      17em 8em 0 0 #000,
-      17em 9em 0 0 #000,
-      /* 鼻子 */
-      13em 9em 0 0 #000,
-      14em 9em 0 0 #000,
-      15em 9em 0 0 #000,
-      /* 嘴巴 */
-      12em 11em 0 0 #770022,
-      13em 11em 0 0 #770022,
-      14em 11em 0 0 #770022,
-      12em 12em 0 0 #bb0044,
-      13em 12em 0 0 #bb0044,
-      14em 12em 0 0 #bb0044,
-      /* 脸部上色 */
-      9em 2em 0 0 #eecc77,
-      8em 3em 0 0 #eecc77,
-      16em 2em 0 0 #eecc77,
-      17em 3em 0 0 #eecc77,
-      18em 5em 0 0 #eecc77,
-      18em 6em 0 0 #eecc77,
-      7em 5em 0 0 #997744,
-      7em 6em 0 0 #997744,
-      7em 7em 0 0 #997744,
-      7em 8em 0 0 #997744,
-      7em 9em 0 0 #997744,
-      7em 10em 0 0 #997744,
-      8em 13em 0 0 #997744,
-      10em 6em 0 3em #ccaa55,
-      9em 9em 0 1em #ccaa55,
-      15em 6em 0 3em #ccaa55,
-      17em 10em 0 0 #ccaa55,
-      18em 10em 0 0 #ccaa55,
-      10em 11em 0 2em #eecc88,
-      16em 10em 0 3em #eecc88,
-      /* 围巾 */
-      6em 13em 0 0 #ff8811,
-      7em 14em 0 0 #ff8811,
-      12em 10em 0 4em #ff8811,
-      /* 四肢边框 */
-      19em 15em 0 0 #000,
-      19em 16em 0 0 #000,
-      18em 16em 0 0 #000,
-      17em 16em 0 0 #000,
-      16em 15em 0 0 #000,
-      15em 15em 0 0 #000,
-      14em 15em 0 0 #000,
-      14em 16em 0 0 #000,
-      13em 16em 0 0 #000,
-      12em 16em 0 0 #000,
-      11em 16em 0 0 #000,
-      10em 15em 0 0 #000,
-      9em 15em 0 0 #000,
-      8em 15em 0 0 #000,
-      7em 16em 0 0 #000,
-      6em 16em 0 0 #000,
-      5em 16em 0 0 #000,
-      4em 15em 0 0 #000,
-      4em 14em 0 0 #000,
-      3em 14em 0 0 #000,
-      3em 13em 0 0 #000,
-      3em 12em 0 0 #000,
-      3em 11em 0 0 #000,
-      3em 10em 0 0 #000,
-      4em 9em 0 0 #000,
-      5em 8em 0 0 #000,
-      /* 四肢上色 */
-      18em 15em 0 0 #997744,
-      17em 15em 0 0 #997744,
-      12em 14em 0 1em #997744,
-      6em 13em 0 2em #997744,
-      5em 9em 0 0 #997744,
-      5em 10em 0 0 #997744,
-      4em 10em 0 0 #997744,
-      /* 尾巴边框 */
-      4em 8em 0 0 #000,
-      4em 7em 0 0 #000,
-      4em 6em 0 0 #000,
-      5em 5em 0 0 #000,
-      5em 4em 0 0 #000,
-      4em 4em 0 0 #000,
-      3em 4em 0 0 #000,
-      2em 5em 0 0 #000,
-      1em 6em 0 0 #000,
-      1em 7em 0 0 #000,
-      1em 8em 0 0 #000,
-      1em 9em 0 0 #000,
-      1em 10em 0 0 #000,
-      2em 11em 0 0 #000,
-      /* 尾巴上色 */
-      2em 9em 0 1em #997744,
-      3em 6em 0 1em #997744
-    ;
+    box-shadow: var(--dog);
   }
   /* 兔子 */
-  35%, 50% {
+  25.2%, 36% {
     margin-right: 22em;
     margin-bottom: 16em;
-    box-shadow:
-      /* 脸部边框 */
-      8em 6em 0 0 #000,
-      8em 5em 0 0 #000,
-      9em 4em 0 0 #000,
-      9em 3em 0 0 #000,
-      10em 2em 0 0 #000,
-      11em 1em 0 0 #000,
-      12em 1em 0 0 #000,
-      13em 1em 0 0 #000,
-      13em 2em 0 0 #000,
-      13em 3em 0 0 #000,
-      13em 4em 0 0 #000,
-      13em 5em 0 0 #000,
-      14em 5em 0 0 #000,
-      15em 5em 0 0 #000,
-      15em 4em 0 0 #000,
-      15em 3em 0 0 #000,
-      15em 2em 0 0 #000,
-      15em 1em 0 0 #000,
-      16em 1em 0 0 #000,
-      17em 1em 0 0 #000,
-      18em 2em 0 0 #000,
-      19em 3em 0 0 #000,
-      19em 4em 0 0 #000,
-      19em 5em 0 0 #000,
-      19em 6em 0 0 #000,
-      19em 7em 0 0 #000,
-      19em 8em 0 0 #000,
-      19em 9em 0 0 #000,
-      19em 10em 0 0 #000,
-      19em 11em 0 0 #000,
-      19em 12em 0 0 #000,
-      19em 13em 0 0 #000,
-      18em 14em 0 0 #000,
-      17em 14em 0 0 #000,
-      16em 14em 0 0 #000,
-      15em 14em 0 0 #000,
-      14em 14em 0 0 #000,
-      13em 14em 0 0 #000,
-      12em 14em 0 0 #000,
-      11em 14em 0 0 #000,
-      10em 13em 0 0 #000,
-      /* 耳朵 */
-      11em 4em 0 0 #ff99bb,
-      11em 5em 0 0 #ff99bb,
-      11em 6em 0 0 #ff99bb,
-      17em 4em 0 0 #ff99bb,
-      17em 5em 0 0 #ff99bb,
-      17em 6em 0 0 #ff99bb,
-      /* 眼睛 */
-      11em 10em 0 0 #662222,
-      11em 11em 0 0 #662222,
-      18em 10em 0 0 #662222,
-      18em 11em 0 0 #662222,
-      /* 鼻子 */
-      14em 11em 0 0 #ff99bb,
-      15em 11em 0 0 #ff99bb,
-      /* 害羞QWQ */
-      9em 12em 0 0 #ff99cc,
-      10em 12em 0 0 #ff99cc,
-      18em 12em 0 0 #ff99cc,
-      /* 脸部上色 */
-      8em 7em 0 0 #887777,
-      8em 8em 0 0 #887777,
-      8em 9em 0 0 #887777,
-      8em 10em 0 0 #887777,
-      8em 11em 0 0 #887777,
-      8em 12em 0 0 #887777,
-      8em 13em 0 0 #887777,
-      11em 2em 0 0 #fff,
-      12em 2em 0 0 #fff,
-      16em 2em 0 0 #fff,
-      17em 2em 0 0 #fff,
-      18em 3em 0 0 #fff,
-      14em 9em 0 0 #fff,
-      15em 9em 0 0 #fff,
-      14em 11em 0 1em #fff,
-      15em 11em 0 1em #fff,
-      13em 13em 0 1em #fff,
-      16em 13em 0 1em #fff,
-      18em 13em 0 0 #fff,
-      11em 12em 0 0 #eee,
-      11em 13em 0 0 #eee,
-      11em 5em 0 2em #eee,
-      17em 5em 0 2em #eee,
-      11em 9em 0 2em #eee,
-      17em 9em 0 2em #eee,
-      14em 7em 0 1em #eee,
-      /* 围巾 */
-      9em 10em 0 2em #ee4488,
-      /* 四肢边框 */
-      20em 13em 0 0 #000,
-      21em 14em 0 0 #000,
-      21em 15em 0 0 #000,
-      20em 15em 0 0 #000,
-      19em 15em 0 0 #000,
-      18em 15em 0 0 #000,
-      17em 15em 0 0 #000,
-      16em 15em 0 0 #000,
-      15em 15em 0 0 #000,
-      14em 15em 0 0 #000,
-      13em 15em 0 0 #000,
-      12em 15em 0 0 #000,
-      11em 15em 0 0 #000,
-      10em 15em 0 0 #000,
-      9em 15em 0 0 #000,
-      8em 15em 0 0 #000,
-      7em 15em 0 0 #000,
-      6em 15em 0 0 #000,
-      5em 15em 0 0 #000,
-      4em 15em 0 0 #000,
-      3em 14em 0 0 #000,
-      2em 13em 0 0 #000,
-      2em 12em 0 0 #000,
-      3em 11em 0 0 #000,
-      3em 10em 0 0 #000,
-      3em 9em 0 0 #000,
-      4em 8em 0 0 #000,
-      5em 8em 0 0 #000,
-      6em 7em 0 0 #000,
-      7em 7em 0 0 #000,
-      /* 四肢上色 */
-      6em 10em 0 2em #bbb,
-      3em 12em 0 0 #bbb,
-      6em 13em 0 0 #bbb,
-      7em 13em 0 0 #bbb,
-      7em 14em 0 0 #bbb,
-      3em 13em 0 0 #fff,
-      7em 11em 0 3em #fff,
-      19em 14em 0 0 #fff,
-      20em 14em 0 0 #fff
-    ;
+    box-shadow: var(--rabbit);
   }
   /* 熊猫 */
-  55%, 70% {
+  39.6%, 50.4% {
     margin-right: 22em;
     margin-bottom: 15em;
-    box-shadow:
-      /* 脸部边框 */
-      7em 3em 0 0 #000,
-      7em 2em 0 0 #000,
-      8em 1em 0 0 #000,
-      9em 1em 0 0 #000,
-      10em 1em 0 0 #000,
-      10em 2em 0 0 #000,
-      11em 2em 0 0 #000,
-      12em 2em 0 0 #000,
-      13em 2em 0 0 #000,
-      14em 2em 0 0 #000,
-      15em 2em 0 0 #000,
-      15em 1em 0 0 #000,
-      16em 1em 0 0 #000,
-      17em 1em 0 0 #000,
-      18em 2em 0 0 #000,
-      18em 3em 0 0 #000,
-      19em 4em 0 0 #000,
-      19em 5em 0 0 #000,
-      19em 6em 0 0 #000,
-      19em 7em 0 0 #000,
-      19em 8em 0 0 #000,
-      19em 9em 0 0 #000,
-      19em 10em 0 0 #000,
-      19em 11em 0 0 #000,
-      19em 12em 0 0 #000,
-      18em 12em 0 0 #000,
-      17em 13em 0 0 #000,
-      16em 13em 0 0 #000,
-      15em 13em 0 0 #000,
-      14em 13em 0 0 #000,
-      13em 13em 0 0 #000,
-      12em 13em 0 0 #000,
-      11em 13em 0 0 #000,
-      /* 耳朵 */
-      7em 4em 0 0 #222,
-      8em 2em 0 0 #222,
-      8em 3em 0 0 #222,
-      9em 2em 0 0 #353535,
-      9em 3em 0 0 #353535,
-      16em 2em 0 0 #222,
-      17em 2em 0 0 #353535,
-      17em 3em 0 0 #353535,
-      18em 4em 0 0 #353535,
-      /* 眼睛 */
-      10em 8em 0 0 #000,
-      10em 8em 0 1em #353535,
-      9em 8em 0 1em #353535,
-      9em 6em 0 0 #353535,
-      10em 6em 0 0 #353535,
-      9em 10em 0 0 #353535,
-      10em 10em 0 0 #353535,
-      17em 8em 0 0 #000,
-      17em 8em 0 1em #353535,
-      18em 7em 0 1em #353535,
-      18em 9em 0 1em #353535,
-      /* 鼻子 */
-      13em 8em 0 0 #000,
-      14em 8em 0 0 #000,
-      /* 嘴巴 */
-      13em 10em 0 0 #272727,
-      14em 10em 0 0 #272727,
-      13em 11em 0 0 #404040,
-      14em 11em 0 0 #404040,
-      /* 脸部上色 */
-      7.5em 11.5em 0 0.5em #353535,
-      7.5em 12.5em 0 0.5em #353535,
-      8.5em 12.5em 0 0.5em #353535,
-      10em 13em 0 0 #353535,
-      18em 11em 0 0 #a8a8a8,
-      10.5em 12.5em 0 0.5em #a8a8a8,
-      12.5em 12.5em 0 0.5em #a8a8a8,
-      14.5em 12.5em 0 0.5em #a8a8a8,
-      16.5em 12.5em 0 0.5em #a8a8a8,
-      12em 7em 0 5em #eee,
-      18em 5em 0 0 #eee,
-      /* 四肢边框 */
-      20em 12em 0 0 #000,
-      21em 13em 0 0 #000,
-      21em 14em 0 0 #000,
-      20em 14em 0 0 #000,
-      19em 14em 0 0 #000,
-      18em 14em 0 0 #000,
-      17em 14em 0 0 #000,
-      16em 14em 0 0 #000,
-      15em 14em 0 0 #000,
-      14em 14em 0 0 #000,
-      13em 14em 0 0 #000,
-      12em 14em 0 0 #000,
-      11em 14em 0 0 #000,
-      10em 14em 0 0 #000,
-      9em 14em 0 0 #000,
-      8em 14em 0 0 #000,
-      7em 14em 0 0 #000,
-      6em 14em 0 0 #000,
-      5em 14em 0 0 #000,
-      4em 14em 0 0 #000,
-      3em 14em 0 0 #000,
-      2em 14em 0 0 #000,
-      1em 14em 0 0 #000,
-      1em 13em 0 0 #000,
-      2em 12em 0 0 #000,
-      2em 11em 0 0 #000,
-      3em 10em 0 0 #000,
-      3em 9em 0 0 #000,
-      3em 8em 0 0 #000,
-      4em 7em 0 0 #000,
-      5em 6em 0 0 #000,
-      6em 5em 0 0 #000,
-      6em 11em 0 0 #000,
-      6em 12em 0 0 #000,
-      /* 四肢上色 */
-      8em 8em 0 2em #353535,
-      7em 8em 0 2em #eee,
-      5em 9em 0 1em #eee,
-      4em 11em 0 0 #a8a8a8,
-      5em 11em 0 0 #a8a8a8,
-      5em 12em 0 0 #a8a8a8,
-      5em 12em 0 2em #353535,
-      2em 13em 0 0 #353535,
-      19em 13em 0 1em #353535
-    ;
+    box-shadow: var(--panda);
   }
   /* 猪 */
-  75%, 90% {
+  54%, 64.8% {
     margin-right: 22em;
     margin-bottom: 14em;
-    box-shadow:
-      /* 脸部边框 */
-      8em 1em 0 0 #000,
-      9em 1em 0 0 #000,
-      9em 2em 0 0 #000,
-      10em 3em 0 0 #000,
-      11em 3em 0 0 #000,
-      12em 3em 0 0 #000,
-      13em 3em 0 0 #000,
-      14em 3em 0 0 #000,
-      15em 3em 0 0 #000,
-      16em 2em 0 0 #000,
-      17em 1em 0 0 #000,
-      18em 1em 0 0 #000,
-      18em 2em 0 0 #000,
-      18em 3em 0 0 #000,
-      18em 4em 0 0 #000,
-      19em 5em 0 0 #000,
-      19em 6em 0 0 #000,
-      19em 7em 0 0 #000,
-      19em 8em 0 0 #000,
-      19em 9em 0 0 #000,
-      19em 10em 0 0 #000,
-      7em 2em 0 0 #000,
-      7em 3em 0 0 #000,
-      6em 3em 0 0 #000,
-      6em 4em 0 0 #000,
-      6em 5em 0 0 #000,
-      6em 6em 0 0 #000,
-      6em 7em 0 0 #000,
-      6em 8em 0 0 #000,
-      6em 9em 0 0 #000,
-      6em 10em 0 0 #000,
-      6em 11em 0 0 #000,
-      /* 眼睛 */
-      9em 6em 0 0 #000,
-      17em 6em 0 0 #000,
-      /* 鼻子 */
-      11em 7em 0 0 #000,
-      12em 7em 0 0 #000,
-      13em 7em 0 0 #000,
-      14em 7em 0 0 #000,
-      15em 7em 0 0 #000,
-      16em 7em 0 0 #000,
-      17em 8em 0 0 #000,
-      18em 9em 0 0 #000,
-      18em 10em 0 0 #000,
-      18em 11em 0 0 #000,
-      17em 12em 0 0 #000,
-      16em 12em 0 0 #000,
-      15em 12em 0 0 #000,
-      14em 12em 0 0 #000,
-      13em 12em 0 0 #000,
-      12em 12em 0 0 #000,
-      11em 12em 0 0 #000,
-      10em 11em 0 0 #000,
-      9em 10em 0 0 #000,
-      9em 9em 0 0 #000,
-      10em 8em 0 0 #000,
-      12em 9em 0 0 #000,
-      12em 10em 0 0 #000,
-      15em 9em 0 0 #000,
-      15em 10em 0 0 #000,
-      /* 鼻子上色 */
-      13.5em 8.5em 0 1.5em #ffaaaa,
-      15em 9em 0 1em #ffaaaa,
-      13em 10em 0 2em #ff8888,
-      11em 9em 0 1em #ff8888,
-      16em 10em 0 1em #ff8888,
-      /* 脸部上色 */
-      8em 2em 0 0 #ee5588,
-      8em 3em 0 0 #ee5588,
-      16em 3em 0 0 #ee5588,
-      10em 4em 0 1em #ff7799,
-      13em 4em 0 1em #ff7799,
-      16em 4em 0 1em #ff7799,
-      17em 2em 0 0 #ff7799,
-      18em 5em 0 0 #ff7799,
-      18em 6em 0 0 #ff7799,
-      8em 7em 0 0 #ff7799,
-      13.5em 7.5em 0 4.5em #ee5588,
-      7em 5em 0 1em #ee5588,
-      8em 8em 0 1em #ee5588,
-      8em 11em 0 1em #ee5588,
-      /* 围巾 */
-      8em 9em 0 3em #992233,
-      /* 四肢边框 */
-      20em 11em 0 0 #000,
-      21em 12em 0 0 #000,
-      21em 13em 0 0 #000,
-      20em 13em 0 0 #000,
-      19em 13em 0 0 #000,
-      18em 13em 0 0 #000,
-      17em 13em 0 0 #000,
-      16em 13em 0 0 #000,
-      15em 13em 0 0 #000,
-      14em 13em 0 0 #000,
-      13em 13em 0 0 #000,
-      12em 13em 0 0 #000,
-      11em 13em 0 0 #000,
-      10em 13em 0 0 #000,
-      9em 13em 0 0 #000,
-      8em 13em 0 0 #000,
-      7em 13em 0 0 #000,
-      6em 13em 0 0 #000,
-      5em 13em 0 0 #000,
-      4em 13em 0 0 #000,
-      3em 13em 0 0 #000,
-      2em 13em 0 0 #000,
-      1em 13em 0 0 #000,
-      1em 12em 0 0 #000,
-      2em 11em 0 0 #000,
-      2em 10em 0 0 #000,
-      3em 9em 0 0 #000,
-      3em 8em 0 0 #000,
-      3em 7em 0 0 #000,
-      4em 6em 0 0 #000,
-      5em 5em 0 0 #000,
-      /* 四肢上色 */
-      3em 11em 0 1em #cc3366,
-      4em 8em 0 1em #cc3366,
-      19em 12em 0 1em #ee5588,
-      /* 尾巴 */
-      4em 4em 0 0 #000,
-      3em 3em 0 0 #000,
-      /* 尾巴上色 */
-      3em 2em 0 0 #992233,
-      4em 3em 0 0 #992233
-    ;
+    box-shadow: var(--pig);
+  }
+  /* 机器人 */
+  68.4%, 79.2% {
+    margin-right: 16em;
+    margin-bottom: 15em;
+    box-shadow: var(--robot);
+  }
+  /* 史莱姆 */
+  82.8%, 93.6% {
+    margin-right: 17em;
+    margin-bottom: 13em;
+    box-shadow: var(--slime);
+  }
+}
+@-webkit-keyframes pet {
+  /* 黑猫 */
+  0%, 7.2%, 96.4%, 100% {
+    margin-right: 20em;
+    margin-bottom: 17em;
+    box-shadow: var(--cat);
+  }
+  /* 柴犬 */
+  10.8%, 21.6% {
+    margin-right: 20em;
+    margin-bottom: 17em;
+    box-shadow: var(--dog);
+  }
+  /* 兔子 */
+  25.2%, 36% {
+    margin-right: 22em;
+    margin-bottom: 16em;
+    box-shadow: var(--rabbit);
+  }
+  /* 熊猫 */
+  39.6%, 50.4% {
+    margin-right: 22em;
+    margin-bottom: 15em;
+    box-shadow: var(--panda);
+  }
+  /* 猪 */
+  54%, 64.8% {
+    margin-right: 22em;
+    margin-bottom: 14em;
+    box-shadow: var(--pig);
+  }
+  /* 机器人 */
+  68.4%, 79.2% {
+    margin-right: 16em;
+    margin-bottom: 15em;
+    box-shadow: var(--robot);
+  }
+  /* 史莱姆 */
+  82.8%, 93.6% {
+    margin-right: 17em;
+    margin-bottom: 13em;
+    box-shadow: var(--slime);
   }
 }
 </style>
